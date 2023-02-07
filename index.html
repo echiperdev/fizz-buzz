@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fizz Buzz</title>
+    </head>
+
+    <body>
+<!-- PROBLEM: Write a program that takes a user's input and prints the numebrs
+    from one to the number the user entered. However, if multiples of three print 'Fizz'
+    instead of the numeber and for multiples of five print 'Buzz'. For numbers which are
+    multiples of both three and five print 'FizzBuzz' -->
+
+<!-- ALGORITHM 
+    1) Whe a user inputs a number
+    2) Loop from 1 to the entered number 
+    3) If the current number is divisible by 3 then print 'Fizz'
+    4) If the current number is divisible by 5 then print 'Buzz'
+    5) If the current number is divisible by 3 and 5 then print 'Fizzbuzz' // This takes top priority
+    6) Otherwise print the current number -->
+
+    <script>
+        // Stores input from prompt
+        let answer = parseInt(prompt("Please enter the numebr you would like to Fizzbuz up to: "));
+
+        // Loops from 1 to the entered number and prints to console, which invokes i
+        for (let i = 1; i <= answer; i++) {
+            console.log(i);
+        }
+    </script>
+    </body>
+</html>
